@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
+
+@layer {
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+}
+
+@layer {
+  .container {
+    @apply mx-auto px-[30px];
+  }
+}
+
+@layer {
+  .btn {
+    @apply bg-[#42b0d1] hover:bg-[#8cdae4] font-semibold transition-all duration-300;
+  }
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+
+  body {
+    background-color: #181e2a;
+  }
+}
