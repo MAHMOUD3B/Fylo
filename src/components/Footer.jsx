@@ -14,13 +14,13 @@ const Footer = () => {
     <footer className="pt-56 pb-24 bg-[#0c1524] text-white">
       <div className="container">
         <a href="/" className="mb-8 block w-fit mx-auto sm:mx-0">
-          <img src="./src/assets/images/logo.svg" alt="Logo-img" />
+          <img src="./images/logo.svg" alt="Logo-img" />
         </a>
         <div className="grid gap-10 md:gap-5 place-items-start justify-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
           <div>
             <p className="flex items-start gap-3 text-sm">
               <img
-                src="./src/assets/images/icon-location.svg"
+                src="./images/icon-location.svg"
                 alt="location-img"
               />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
@@ -30,11 +30,11 @@ const Footer = () => {
           </div>
           <div>
             <p className="flex items-start gap-3 text-sm mb-5">
-              <img src="./src/assets/images/icon-phone.svg" alt="phone-img" />
+              <img src="./images/icon-phone.svg" alt="phone-img" />
               +201035834713
             </p>
             <p className="flex items-start gap-3 text-sm">
-              <img src="./src/assets/images/icon-email.svg" alt="phone-img" />
+              <img src="./images/icon-email.svg" alt="phone-img" />
               +201035834713
             </p>
           </div>

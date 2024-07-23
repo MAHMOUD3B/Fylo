@@ -5,7 +5,7 @@ const Productive = () => {
         <div className="grid gap-10 place-items-center md:grid-cols-2">
           <div className="image">
             <img
-              src="./src/assets/images/illustration-stay-productive.png"
+              src="./images/illustration-stay-productive.png"
               alt="productive-img"
             />
           </div>
@@ -31,7 +31,7 @@ const Productive = () => {
             >
               see how fylo works{" "}
               <img
-                src="./src/assets/images/icon-arrow.svg"
+                src="./images/icon-arrow.svg"
                 alt="arrow-img"
                 className="w-[25px] h-[25px] object-contain animate-moveRight"
               />

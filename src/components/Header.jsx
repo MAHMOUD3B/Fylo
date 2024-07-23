@@ -26,7 +26,7 @@ const Header = () => {
         <div className="container flex-between gap-8 flex-col sm:flex-row">
           <a href="/">
             <img
-              src="./src/assets/images/logo.svg"
+              src="./images/logo.svg"
               alt="Logo"
               className="w-[130px] sm:w-auto"
             />

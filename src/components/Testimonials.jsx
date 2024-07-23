@@ -31,7 +31,7 @@ const Testimonials = () => {
     <section className="text-white pb-[350px]">
       <div className="container">
         <div className="ms-[-10px]">
-          <img src="./src/assets/images/bg-quotes.png" alt="quotes-img" />
+          <img src="./images/bg-quotes.png" alt="quotes-img" />
         </div>
         <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[-15px]">
           {testimonials.map((testimon) => {
